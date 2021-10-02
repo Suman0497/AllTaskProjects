@@ -13,6 +13,28 @@
 		181673DC2705991B009FF101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181673DA2705991B009FF101 /* Main.storyboard */; };
 		181673DE2705991D009FF101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181673DD2705991D009FF101 /* Assets.xcassets */; };
 		181673E12705991D009FF101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181673DF2705991D009FF101 /* LaunchScreen.storyboard */; };
+		181673E927059A63009FF101 /* SandwichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673E827059A63009FF101 /* SandwichViewController.swift */; };
+		181673EC27059AEC009FF101 /* SandwichCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673EA27059AEC009FF101 /* SandwichCustomTableViewCell.swift */; };
+		181673ED27059AEC009FF101 /* SandwichCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181673EB27059AEC009FF101 /* SandwichCustomTableViewCell.xib */; };
+		181673EF27059D91009FF101 /* Task2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673EE27059D91009FF101 /* Task2TableViewController.swift */; };
+		181673F127059DE8009FF101 /* Task2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673F027059DE8009FF101 /* Task2TableViewCell.swift */; };
+		181673F327059F1A009FF101 /* PassingDataBtwnScreensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673F227059F1A009FF101 /* PassingDataBtwnScreensViewController.swift */; };
+		181673F527059F38009FF101 /* PassingDataSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673F427059F38009FF101 /* PassingDataSecondViewController.swift */; };
+		181673F72705A176009FF101 /* ElementsInScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673F62705A176009FF101 /* ElementsInScrollViewController.swift */; };
+		181673F92705A4CD009FF101 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673F82705A4CD009FF101 /* ToDoListViewController.swift */; };
+		181673FB2705A503009FF101 /* ToDoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673FA2705A503009FF101 /* ToDoListModel.swift */; };
+		181673FD2705A541009FF101 /* ToDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673FC2705A541009FF101 /* ToDoListTableViewCell.swift */; };
+		181673FF2705A805009FF101 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181673FE2705A805009FF101 /* SettingsViewController.swift */; };
+		181674022705A858009FF101 /* SettingsOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181674002705A858009FF101 /* SettingsOneTableViewCell.swift */; };
+		181674032705A858009FF101 /* SettingsOneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181674012705A858009FF101 /* SettingsOneTableViewCell.xib */; };
+		181674062705A86B009FF101 /* SettingsTwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181674042705A86B009FF101 /* SettingsTwoTableViewCell.swift */; };
+		181674072705A86B009FF101 /* SettingsTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181674052705A86B009FF101 /* SettingsTwoTableViewCell.xib */; };
+		18853D192705C73C00FDE45F /* DynamicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853D182705C73C00FDE45F /* DynamicCollectionViewController.swift */; };
+		18853D1B2705C79B00FDE45F /* DynamicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853D1A2705C79B00FDE45F /* DynamicCollectionViewCell.swift */; };
+		18853D1D2705C91900FDE45F /* ATMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853D1C2705C91900FDE45F /* ATMViewController.swift */; };
+		18853D3F2705E49100FDE45F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853D3E2705E49100FDE45F /* TimerViewController.swift */; };
+		18B768AA2705FDC100C245E1 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B768A92705FDC100C245E1 /* FirstTableViewCell.swift */; };
+		18F53A0827081D3200C5A1C3 /* APIResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F53A0727081D3200C5A1C3 /* APIResponseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +46,28 @@
 		181673DD2705991D009FF101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181673E02705991D009FF101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181673E22705991D009FF101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181673E827059A63009FF101 /* SandwichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichViewController.swift; sourceTree = "<group>"; };
+		181673EA27059AEC009FF101 /* SandwichCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichCustomTableViewCell.swift; sourceTree = "<group>"; };
+		181673EB27059AEC009FF101 /* SandwichCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SandwichCustomTableViewCell.xib; sourceTree = "<group>"; };
+		181673EE27059D91009FF101 /* Task2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2TableViewController.swift; sourceTree = "<group>"; };
+		181673F027059DE8009FF101 /* Task2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2TableViewCell.swift; sourceTree = "<group>"; };
+		181673F227059F1A009FF101 /* PassingDataBtwnScreensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataBtwnScreensViewController.swift; sourceTree = "<group>"; };
+		181673F427059F38009FF101 /* PassingDataSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataSecondViewController.swift; sourceTree = "<group>"; };
+		181673F62705A176009FF101 /* ElementsInScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsInScrollViewController.swift; sourceTree = "<group>"; };
+		181673F82705A4CD009FF101 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		181673FA2705A503009FF101 /* ToDoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListModel.swift; sourceTree = "<group>"; };
+		181673FC2705A541009FF101 /* ToDoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewCell.swift; sourceTree = "<group>"; };
+		181673FE2705A805009FF101 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		181674002705A858009FF101 /* SettingsOneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOneTableViewCell.swift; sourceTree = "<group>"; };
+		181674012705A858009FF101 /* SettingsOneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsOneTableViewCell.xib; sourceTree = "<group>"; };
+		181674042705A86B009FF101 /* SettingsTwoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTwoTableViewCell.swift; sourceTree = "<group>"; };
+		181674052705A86B009FF101 /* SettingsTwoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTwoTableViewCell.xib; sourceTree = "<group>"; };
+		18853D182705C73C00FDE45F /* DynamicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionViewController.swift; sourceTree = "<group>"; };
+		18853D1A2705C79B00FDE45F /* DynamicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionViewCell.swift; sourceTree = "<group>"; };
+		18853D1C2705C91900FDE45F /* ATMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMViewController.swift; sourceTree = "<group>"; };
+		18853D3E2705E49100FDE45F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		18B768A92705FDC100C245E1 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		18F53A0727081D3200C5A1C3 /* APIResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +103,106 @@
 				181673D42705991B009FF101 /* AppDelegate.swift */,
 				181673D62705991B009FF101 /* SceneDelegate.swift */,
 				181673D82705991B009FF101 /* ViewController.swift */,
+				18B768A92705FDC100C245E1 /* FirstTableViewCell.swift */,
 				181673DA2705991B009FF101 /* Main.storyboard */,
 				181673DD2705991D009FF101 /* Assets.xcassets */,
 				181673DF2705991D009FF101 /* LaunchScreen.storyboard */,
 				181673E22705991D009FF101 /* Info.plist */,
+				18438B4F27062039008DBFB5 /* SandWich_UI_Design */,
+				18438B5027062061008DBFB5 /* TableViewTask2 */,
+				18438B5127062075008DBFB5 /* PassingDataFromOneVC */,
+				18438B522706208A008DBFB5 /* UIElementsInOneApp */,
+				18438B53270620A0008DBFB5 /* ToDoList */,
+				18438B54270620B2008DBFB5 /* SettingsApp */,
+				18438B55270620C3008DBFB5 /* DynamicCollectionView */,
+				18438B56270620D1008DBFB5 /* ATMCard */,
+				18438B57270620E0008DBFB5 /* TimerApp */,
+				18F53A0727081D3200C5A1C3 /* APIResponseViewController.swift */,
 			);
 			path = AllTaskInOneProject;
+			sourceTree = "<group>";
+		};
+		18438B4F27062039008DBFB5 /* SandWich_UI_Design */ = {
+			isa = PBXGroup;
+			children = (
+				181673E827059A63009FF101 /* SandwichViewController.swift */,
+				181673EA27059AEC009FF101 /* SandwichCustomTableViewCell.swift */,
+				181673EB27059AEC009FF101 /* SandwichCustomTableViewCell.xib */,
+			);
+			path = SandWich_UI_Design;
+			sourceTree = "<group>";
+		};
+		18438B5027062061008DBFB5 /* TableViewTask2 */ = {
+			isa = PBXGroup;
+			children = (
+				181673EE27059D91009FF101 /* Task2TableViewController.swift */,
+				181673F027059DE8009FF101 /* Task2TableViewCell.swift */,
+			);
+			path = TableViewTask2;
+			sourceTree = "<group>";
+		};
+		18438B5127062075008DBFB5 /* PassingDataFromOneVC */ = {
+			isa = PBXGroup;
+			children = (
+				181673F227059F1A009FF101 /* PassingDataBtwnScreensViewController.swift */,
+				181673F427059F38009FF101 /* PassingDataSecondViewController.swift */,
+			);
+			path = PassingDataFromOneVC;
+			sourceTree = "<group>";
+		};
+		18438B522706208A008DBFB5 /* UIElementsInOneApp */ = {
+			isa = PBXGroup;
+			children = (
+				181673F62705A176009FF101 /* ElementsInScrollViewController.swift */,
+			);
+			path = UIElementsInOneApp;
+			sourceTree = "<group>";
+		};
+		18438B53270620A0008DBFB5 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				181673F82705A4CD009FF101 /* ToDoListViewController.swift */,
+				181673FA2705A503009FF101 /* ToDoListModel.swift */,
+				181673FC2705A541009FF101 /* ToDoListTableViewCell.swift */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		18438B54270620B2008DBFB5 /* SettingsApp */ = {
+			isa = PBXGroup;
+			children = (
+				181673FE2705A805009FF101 /* SettingsViewController.swift */,
+				181674002705A858009FF101 /* SettingsOneTableViewCell.swift */,
+				181674012705A858009FF101 /* SettingsOneTableViewCell.xib */,
+				181674042705A86B009FF101 /* SettingsTwoTableViewCell.swift */,
+				181674052705A86B009FF101 /* SettingsTwoTableViewCell.xib */,
+			);
+			path = SettingsApp;
+			sourceTree = "<group>";
+		};
+		18438B55270620C3008DBFB5 /* DynamicCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18853D182705C73C00FDE45F /* DynamicCollectionViewController.swift */,
+				18853D1A2705C79B00FDE45F /* DynamicCollectionViewCell.swift */,
+			);
+			path = DynamicCollectionView;
+			sourceTree = "<group>";
+		};
+		18438B56270620D1008DBFB5 /* ATMCard */ = {
+			isa = PBXGroup;
+			children = (
+				18853D1C2705C91900FDE45F /* ATMViewController.swift */,
+			);
+			path = ATMCard;
+			sourceTree = "<group>";
+		};
+		18438B57270620E0008DBFB5 /* TimerApp */ = {
+			isa = PBXGroup;
+			children = (
+				18853D3E2705E49100FDE45F /* TimerViewController.swift */,
+			);
+			path = TimerApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +266,9 @@
 				181673E12705991D009FF101 /* LaunchScreen.storyboard in Resources */,
 				181673DE2705991D009FF101 /* Assets.xcassets in Resources */,
 				181673DC2705991B009FF101 /* Main.storyboard in Resources */,
+				181673ED27059AEC009FF101 /* SandwichCustomTableViewCell.xib in Resources */,
+				181674032705A858009FF101 /* SettingsOneTableViewCell.xib in Resources */,
+				181674072705A86B009FF101 /* SettingsTwoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +279,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18853D3F2705E49100FDE45F /* TimerViewController.swift in Sources */,
+				181673F527059F38009FF101 /* PassingDataSecondViewController.swift in Sources */,
+				18F53A0827081D3200C5A1C3 /* APIResponseViewController.swift in Sources */,
+				18853D192705C73C00FDE45F /* DynamicCollectionViewController.swift in Sources */,
+				181673FB2705A503009FF101 /* ToDoListModel.swift in Sources */,
 				181673D92705991B009FF101 /* ViewController.swift in Sources */,
+				18853D1D2705C91900FDE45F /* ATMViewController.swift in Sources */,
+				18B768AA2705FDC100C245E1 /* FirstTableViewCell.swift in Sources */,
+				181673FD2705A541009FF101 /* ToDoListTableViewCell.swift in Sources */,
+				181673F327059F1A009FF101 /* PassingDataBtwnScreensViewController.swift in Sources */,
+				181674022705A858009FF101 /* SettingsOneTableViewCell.swift in Sources */,
+				181673F72705A176009FF101 /* ElementsInScrollViewController.swift in Sources */,
+				18853D1B2705C79B00FDE45F /* DynamicCollectionViewCell.swift in Sources */,
+				181674062705A86B009FF101 /* SettingsTwoTableViewCell.swift in Sources */,
+				181673F92705A4CD009FF101 /* ToDoListViewController.swift in Sources */,
+				181673EC27059AEC009FF101 /* SandwichCustomTableViewCell.swift in Sources */,
 				181673D52705991B009FF101 /* AppDelegate.swift in Sources */,
+				181673FF2705A805009FF101 /* SettingsViewController.swift in Sources */,
+				181673EF27059D91009FF101 /* Task2TableViewController.swift in Sources */,
 				181673D72705991B009FF101 /* SceneDelegate.swift in Sources */,
+				181673E927059A63009FF101 /* SandwichViewController.swift in Sources */,
+				181673F127059DE8009FF101 /* Task2TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
