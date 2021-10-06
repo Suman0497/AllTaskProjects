@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0og-Xk-k3J">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo Stream View Controller-->
+        <scene sceneID="AOz-3e-IxX">
+            <objects>
+                <collectionViewController id="0og-Xk-k3J" customClass="PhotoStreamViewController" customModule="photosApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="QgD-XH-pUu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewLayout key="collectionViewLayout" id="Z3b-O2-uXL" customClass="PinterestLayout" customModule="Pinterest" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnnotatedPhotoCell" id="DrP-0o-qh4" customClass="AnnotatedPhotoCell" customModule="photosApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="HQR-eC-11K" userLabel="Container View">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P6I-sf-dLY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                    <color key="backgroundColor" red="0.047143883999999997" green="0.36116248369999998" blue="0.163305968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="P6I-sf-dLY" secondAttribute="bottom" id="BoC-A9-Ydi"/>
+                                                <constraint firstItem="P6I-sf-dLY" firstAttribute="top" secondItem="HQR-eC-11K" secondAttribute="top" id="NZJ-zM-UWu"/>
+                                                <constraint firstAttribute="trailing" secondItem="P6I-sf-dLY" secondAttribute="trailing" id="qFG-8O-k0K"/>
+                                                <constraint firstItem="P6I-sf-dLY" firstAttribute="leading" secondItem="HQR-eC-11K" secondAttribute="leading" id="zcu-il-9Zn"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="HQR-eC-11K" firstAttribute="top" secondItem="DrP-0o-qh4" secondAttribute="top" id="RXj-Xy-TUI"/>
+                                    <constraint firstAttribute="trailing" secondItem="HQR-eC-11K" secondAttribute="trailing" id="VNq-va-mIA"/>
+                                    <constraint firstItem="HQR-eC-11K" firstAttribute="leading" secondItem="DrP-0o-qh4" secondAttribute="leading" id="fpi-Ng-VOc"/>
+                                    <constraint firstAttribute="bottom" secondItem="HQR-eC-11K" secondAttribute="bottom" id="zWq-qB-gFl"/>
+                                </constraints>
+                                <size key="customSize" width="180" height="180"/>
+                                <connections>
+                                    <outlet property="containerView" destination="HQR-eC-11K" id="1Ds-ct-hAb"/>
+                                    <outlet property="imageView" destination="P6I-sf-dLY" id="dnC-Qx-SZ3"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="0og-Xk-k3J" id="sJp-Vx-8x2"/>
+                            <outlet property="delegate" destination="0og-Xk-k3J" id="JYE-dA-TmL"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIP-iQ-Xhq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512" y="381"/>
+        </scene>
+    </scenes>
+</document>
