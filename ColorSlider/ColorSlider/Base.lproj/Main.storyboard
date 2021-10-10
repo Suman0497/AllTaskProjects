@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ColorSlider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="127" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="XYr-o1-RsI">
+                                <rect key="frame" x="32" y="433" width="157" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="zgE-B9-Pgz"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="EGa-xD-Thg"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="127" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="DWZ-9t-7th">
+                                <rect key="frame" x="218" y="433" width="157" height="41"/>
+                                <color key="minimumTrackTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="sliderOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="Iwa-nO-XPa"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="127" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="aub-vH-vDt">
+                                <rect key="frame" x="101" y="523" width="212" height="30"/>
+                                <connections>
+                                    <action selector="sliderOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="fy6-ip-Xyk"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aub-vH-vDt" firstAttribute="top" secondItem="XYr-o1-RsI" secondAttribute="bottom" constant="50" id="1iW-nN-3jA"/>
+                            <constraint firstItem="aub-vH-vDt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="6e7-mW-Zkx"/>
+                            <constraint firstItem="XYr-o1-RsI" firstAttribute="bottom" secondItem="DWZ-9t-7th" secondAttribute="bottom" id="7AD-g9-BZd"/>
+                            <constraint firstItem="XYr-o1-RsI" firstAttribute="top" secondItem="DWZ-9t-7th" secondAttribute="top" id="EMh-WT-Br3"/>
+                            <constraint firstItem="XYr-o1-RsI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="389" id="GH3-El-WPT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aub-vH-vDt" secondAttribute="bottom" constant="310" id="Q9M-gH-lFI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DWZ-9t-7th" secondAttribute="trailing" constant="41" id="Z2z-Pw-5U4"/>
+                            <constraint firstItem="XYr-o1-RsI" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="eDi-DX-p9j"/>
+                            <constraint firstItem="aub-vH-vDt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ngE-xY-hF7"/>
+                            <constraint firstItem="DWZ-9t-7th" firstAttribute="leading" secondItem="XYr-o1-RsI" secondAttribute="trailing" constant="33" id="yAE-Gt-MTH"/>
+                            <constraint firstItem="XYr-o1-RsI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="zG3-u1-e3o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="background" destination="8bC-Xf-vdC" id="cX5-Ci-e9J"/>
+                        <outlet property="sliderOne" destination="XYr-o1-RsI" id="dG2-YR-6b6"/>
+                        <outlet property="sliderThree" destination="aub-vH-vDt" id="aNS-En-Qt0"/>
+                        <outlet property="sliderTwo" destination="DWZ-9t-7th" id="DDw-q0-UFv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+</document>
