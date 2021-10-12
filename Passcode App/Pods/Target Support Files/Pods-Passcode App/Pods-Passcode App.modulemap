@@ -1,0 +1,6 @@
+framework module Pods_Passcode_App {
+  umbrella header "Pods-Passcode App-umbrella.h"
+
+  export *
+  module * { export * }
+}
